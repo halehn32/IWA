@@ -23,3 +23,13 @@ steps:
     EntitlementPreference: '1'
     PurchaseEntitlements: false
     PreferRemediation: false
+
+- task: FortifyOnDemandDynamic@7
+  inputs:
+    APIUrl: 'https://api.ams.fortify.com'
+    ReleaseId: '1262505'
+    APIAuthenticationType: '2'
+    Username: 'hnematollahy.fb24'
+    PersonalAccessTokenSecret: 'ZjVcV2RjandZWkdtczdwbFNtWlZ7T1t2MnZiMDBJ0'
+    TenantID: 'FranklinBank24'
+    EntitlementPreference: '1'
